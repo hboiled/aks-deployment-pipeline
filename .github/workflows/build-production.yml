@@ -61,7 +61,7 @@ jobs:
             --create-namespace \
             --atomic \
             --wait \
-            --namespace staging \
+            --namespace production \
             contoso-website \
             ./contoso-website \
             --set image.repository=${{ secrets.ACR_NAME }} \
