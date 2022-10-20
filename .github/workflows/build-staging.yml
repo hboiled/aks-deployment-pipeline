@@ -65,7 +65,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           # Resource group name
           resource-group: mslearn-gh-pipelines-22763
-          cluster-name: contosocontainerregistry16495
+          cluster-name: contoso-video
 
       - name: Run Helm Deploy
         run: |
